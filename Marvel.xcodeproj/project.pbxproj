@@ -11,6 +11,15 @@
 		CB8C19D52A5FB7FA00D724D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8C19D42A5FB7FA00D724D4 /* ContentView.swift */; };
 		CB8C19D72A5FB7FA00D724D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB8C19D62A5FB7FA00D724D4 /* Assets.xcassets */; };
 		CB8C19DA2A5FB7FA00D724D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB8C19D92A5FB7FA00D724D4 /* Preview Assets.xcassets */; };
+		CB8C19E22A5FB81500D724D4 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = CB8C19E12A5FB81500D724D4 /* SDWebImageSwiftUI */; };
+		CB8C19E52A5FB8BF00D724D4 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8C19E42A5FB8BF00D724D4 /* Credentials.swift */; };
+		CB8C19EA2A5FB90D00D724D4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8C19E92A5FB90D00D724D4 /* Home.swift */; };
+		CB8C19EC2A5FB96F00D724D4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8C19EB2A5FB96F00D724D4 /* HomeViewModel.swift */; };
+		CB8C19EE2A5FB9C200D724D4 /* CharactersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8C19ED2A5FB9C200D724D4 /* CharactersView.swift */; };
+		CB8C19F02A5FBD5000D724D4 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8C19EF2A5FBD5000D724D4 /* Character.swift */; };
+		CB8C19F32A5FC8D400D724D4 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8C19F22A5FC8D400D724D4 /* WebView.swift */; };
+		CB8C19F52A5FCA9000D724D4 /* Comic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8C19F42A5FCA9000D724D4 /* Comic.swift */; };
+		CB8C19F72A5FCC1400D724D4 /* ComicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8C19F62A5FCC1400D724D4 /* ComicsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		CB8C19D42A5FB7FA00D724D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CB8C19D62A5FB7FA00D724D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB8C19D92A5FB7FA00D724D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB8C19E42A5FB8BF00D724D4 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		CB8C19E92A5FB90D00D724D4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		CB8C19EB2A5FB96F00D724D4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		CB8C19ED2A5FB9C200D724D4 /* CharactersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersView.swift; sourceTree = "<group>"; };
+		CB8C19EF2A5FBD5000D724D4 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		CB8C19F12A5FC84000D724D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CB8C19F22A5FC8D400D724D4 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		CB8C19F42A5FCA9000D724D4 /* Comic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic.swift; sourceTree = "<group>"; };
+		CB8C19F62A5FCC1400D724D4 /* ComicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB8C19E22A5FB81500D724D4 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +70,13 @@
 		CB8C19D12A5FB7FA00D724D4 /* Marvel */ = {
 			isa = PBXGroup;
 			children = (
+				CB8C19F12A5FC84000D724D4 /* Info.plist */,
+				CB8C19E82A5FB90200D724D4 /* ViewModel */,
+				CB8C19E72A5FB8F800D724D4 /* Model */,
+				CB8C19E62A5FB8F400D724D4 /* View */,
 				CB8C19D22A5FB7FA00D724D4 /* MarvelApp.swift */,
 				CB8C19D42A5FB7FA00D724D4 /* ContentView.swift */,
+				CB8C19E42A5FB8BF00D724D4 /* Credentials.swift */,
 				CB8C19D62A5FB7FA00D724D4 /* Assets.xcassets */,
 				CB8C19D82A5FB7FA00D724D4 /* Preview Content */,
 			);
@@ -65,6 +89,34 @@
 				CB8C19D92A5FB7FA00D724D4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CB8C19E62A5FB8F400D724D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB8C19E92A5FB90D00D724D4 /* Home.swift */,
+				CB8C19ED2A5FB9C200D724D4 /* CharactersView.swift */,
+				CB8C19F22A5FC8D400D724D4 /* WebView.swift */,
+				CB8C19F62A5FCC1400D724D4 /* ComicsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB8C19E72A5FB8F800D724D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB8C19EF2A5FBD5000D724D4 /* Character.swift */,
+				CB8C19F42A5FCA9000D724D4 /* Comic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB8C19E82A5FB90200D724D4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CB8C19EB2A5FB96F00D724D4 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +135,9 @@
 			dependencies = (
 			);
 			name = Marvel;
+			packageProductDependencies = (
+				CB8C19E12A5FB81500D724D4 /* SDWebImageSwiftUI */,
+			);
 			productName = Marvel;
 			productReference = CB8C19CF2A5FB7FA00D724D4 /* Marvel.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +166,9 @@
 				Base,
 			);
 			mainGroup = CB8C19C62A5FB7FA00D724D4;
+			packageReferences = (
+				CB8C19E02A5FB81500D724D4 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = CB8C19D02A5FB7FA00D724D4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +195,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB8C19E52A5FB8BF00D724D4 /* Credentials.swift in Sources */,
+				CB8C19F32A5FC8D400D724D4 /* WebView.swift in Sources */,
 				CB8C19D52A5FB7FA00D724D4 /* ContentView.swift in Sources */,
+				CB8C19F02A5FBD5000D724D4 /* Character.swift in Sources */,
+				CB8C19EE2A5FB9C200D724D4 /* CharactersView.swift in Sources */,
+				CB8C19EA2A5FB90D00D724D4 /* Home.swift in Sources */,
+				CB8C19F72A5FCC1400D724D4 /* ComicsView.swift in Sources */,
+				CB8C19EC2A5FB96F00D724D4 /* HomeViewModel.swift in Sources */,
+				CB8C19F52A5FCA9000D724D4 /* Comic.swift in Sources */,
 				CB8C19D32A5FB7FA00D724D4 /* MarvelApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +336,7 @@
 				DEVELOPMENT_TEAM = 3Y8YH8GWMM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Marvel/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +366,7 @@
 				DEVELOPMENT_TEAM = 3Y8YH8GWMM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Marvel/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +407,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CB8C19E02A5FB81500D724D4 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CB8C19E12A5FB81500D724D4 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB8C19E02A5FB81500D724D4 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CB8C19C72A5FB7FA00D724D4 /* Project object */;
 }
